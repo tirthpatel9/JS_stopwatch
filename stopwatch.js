@@ -23,6 +23,7 @@ function StopTimer(){
   clearInterval(interval);
 }
 
+//stops timer and reset timer to 0
 function ResetTimer(){
   timerOn = false;
   clearInterval(interval);
